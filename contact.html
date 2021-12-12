@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <title>Carl Bylund | A master</title>
     <link rel="stylesheet" href="script.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 </head>
 
 <body>
@@ -14,13 +15,29 @@
             <a href="index.html" class="logo"></a>
             <div id="toggle" onclick="toggle()"></div>
         </header>
-       
+       <div class="contact-section">
+            <div class="contact-info">
+                <div><i class="fas fa-map-marker-alt">    Located, Sweden - Malmö</i></div>
+                <div><i class="fas fa-envelope-square">  Email, carl@******.se</i></div>
+                <div><i class="fab fa-linkedin" style="font-weight: 900;">  LinkedIn, Carl Bylund</i></div>
+                <div><i class="fas fa-phone-square-alt">  Telefon, 073443****</i></div>
+            </div>
+            <div class="contact-form">
+                <h2>Get In Touch</h2>
+                <p>And we can grab a coffe over a call</p>
+                <form class="contact" action="" method="POST">
+                    <input type="text" name="name" class="text-box" placeholder="Your Name" required>
+                    <input type="email" name="email" class="text-box" placeholder="Your Email" required>
+                    <textarea name="message" rows="5" placeholder="Your message" required></textarea>
+                    <input type="submit" name="submit" class="send-btn" value="Send">
+                </form>
+            </div>
+       </div>
     </section>
     <div id="navigation">
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="aboutme.html">About me</a></li>
-            <li><a href="services.html">Services</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
             <li><a href="contact.html">Contact</a></li>
 
